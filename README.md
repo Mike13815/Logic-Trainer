@@ -15,3 +15,15 @@ In progress: ESP32 programming. Handles the following:
    c. Will tie to interrupt (internal) for clock sync, such as counting in binary.
 4. Updating Outputs over i2c. FUNCTIONAL
 5. Updating LEDs over i2c, communicating with Atmega328. FUNCTIONAL
+
+
+Desired Features:
+
+OTA Updates - Partially Functional
+The desired outcome is for the ESP32 to connect to wifi, access a github or cloud drive, check for a more recent file than its own and update if there is. Right now I only have OTA updates via a web interface. I would also like if the esp32 could update the ATMega328's files over i2c after updating its own. 
+
+Web Interface for management - changing features, settings via a web interface
+
+Web Interface for digital logic table creation - live graphs showing logic states. 
+
+Web Interface for "Project Completed!" - testing if labs were successfully completed. 
